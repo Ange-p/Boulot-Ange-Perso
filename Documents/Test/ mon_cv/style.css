@@ -1,0 +1,129 @@
+/*mise en forme de mon cv*/
+body
+{
+    width: 100%;
+    margin: auto;
+    padding: 3px 3px 5px 3px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 3px black solid;
+    border-style: inset;
+   
+    
+    
+}
+
+
+h1
+{
+    color: blue;
+    font-size: 3em;
+    font-family: Impact, Arial, "Time New roman", sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 3px 3px 3px gray;
+    text-align: center;
+}
+h1:hover
+{
+    color: red;
+}
+
+p1
+{
+text-align: center;
+color: grey;
+text-shadow: 1px 1px 1px navy;
+}
+
+p
+{
+text-align: center;
+}
+
+
+
+h2
+{
+
+margin: 2px;
+}
+
+#dossier
+{
+position: absolute;
+top: 430px;
+left: start;
+opacity: 1;
+}
+
+.texte
+{
+position: absolute;
+top: 30px;
+
+margin-left: 2.5em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.3em;
+opacity: 1;
+color: navy;
+
+}
+
+.imageflottante
+{
+float: start;
+}
+
+
+#formation, .precision
+{
+    position: absolute;
+    top: 750px;
+    color: green;
+    font-size: 1.5em;
+    font-family: Impact, Arial, "Time New roman", sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 3px 3px 3px gray;
+text-align: left;
+}
+
+.precision
+{
+text-align: start;
+position: absolute;
+top: 30px;
+color: black;
+font-size: 0.9em;
+font-family: Impact, Arial, "Time New roman", sans-serif;
+font-weight: bold;
+font-style: oblique;
+text-shadow: 3px 3px 3px gray;
+}
+
+.projets
+{
+    position: absolute;
+    top: 850px;
+    color: purple;
+    font-size: 1.5em;
+    font-family: Impact, Arial, "Time New roman", sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 3px 3px 3px gray;
+text-align: left;   
+}
+
+.aboutit
+{
+    text-align: start;
+    position: absolute;
+    top: 900px;
+    color: black;
+    font-size: 0.9em;
+    font-family: Impact, Arial, "Time New roman", sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 3px 3px 3px gray;  
+}
